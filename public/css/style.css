@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Nunito&display=swap');
+body{
+	max-width: 1024px;
+	margin: 10px auto;
+	box-shadow: 0 0 10px #3c3c3c;
+	padding: 0px;
+	font-family: 'Nunito', sans-serif;
+	background-color: aqua;
+	background-image: url('../images/leaves_bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+.cover{
+	background-color: rgba(0,0,0,0.4);
+	padding: 20px;
+}
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.menu{
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+}
+.menu li{
+	display: inline-block;
+	width: 150px;
+}
+nav{
+	border-top: 2px solid #db0066;
+	border-bottom: 2px solid #db0066;
+}
+.menu li a{
+	color: #db0066;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 26px;
+}
+.logo{
+	width: 90px;
+}
+.cursive{
+	font-family:'Courgette', cursive;
+	font-size: 32px;
+}
+.width45{
+	width: 48%;
+	margin: 1%;
+}
+.width65{
+	width: 68%;
+	margin: 1%;
+}
+
+.width35{
+	width: 28%;
+	margin: 1%;
+}
+.left img{
+	max-width: 100%;
+}
+footer{
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	border-top: 2px solid #db0066;
+	padding-top: 10px;
+}
+
+
+.leftBorder{
+	border-radius: 100px 0 0 0;
+}
+.rightBorder{
+	border-radius: 0 0 100px 0;
+}
+
+form{
+	width:400px;
+	margin: auto;
+}
+
+.formfield{
+	width: 100%;
+	margin: 5px;
+}
+
+.formfield label{
+	width: 27%;
+	display: block;
+	float: left;
+	font-size: 20px;
+}
+.formfield input{
+	width: 69%;
+	display: block;
+	float: right;
+	height: 30px;
+}
+.clear{
+	clear: both;
+}
+
+input.submit{
+	width: 100%;
+	float: none;
+}
